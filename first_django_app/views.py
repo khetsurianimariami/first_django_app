@@ -16,6 +16,7 @@ def hello_specific(request, name: str):
     <h1 style="color:red;font-family:'Courier New';text-align:center;">
     gamarjoba {name}
     </h1>
+    <h3> Bye </h3>
     """
 
     return HttpResponse(body)
